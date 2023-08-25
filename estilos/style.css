@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+:root {
+    --color1: #32B397;
+    --color2: #F77AFF;
+    --color3: #60FFDC;
+    --color4: #FFD347;
+    --color5: #B3963B;
+    --font_especial: 'Lora', serif;
+    --font_padrao: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: var(--font_especial);
+    text-align: center;
+}
+
+header{
+    background-image: url("../img/globo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    padding-bottom:50px;
+    padding-top: 50px;
+    color: white;
+}
+
+header h1{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.485);
+}
+
+header > p {
+    font-family: var(--font_padrao);
+    font-size: 0.8em;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.499);
+    color: white;
+}
+
+.material-symbols-outlined{
+    color: var(--color4);
+}
+nav {
+    margin-top: 10px;
+}
+
+nav > ul{
+    display: flex;
+}
+li a{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+
+li a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+
+menu li{
+    display: inline;
+    margin: auto;
+}
+menu a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.itens {
+    background-color: lightcoral;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.itens h2 {
+    text-align: center;
+    padding-top: 90px;
+    margin-top: 30px;
+}
+

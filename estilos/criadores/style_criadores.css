@@ -38,6 +38,7 @@ header > ul > li > a{
 
 li {
     list-style-type: none;
+    font-family: var(--font_especial);
 }
 
 li#loja{
@@ -54,8 +55,12 @@ span.material-symbols-outlined {
     color: black;
 }
 
-hr{
-    margin-bottom: 30px;
+#titulo_criadores{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font_especial);
+    font-size: 35px;
 }
 div#luiz{
     display: block;
@@ -64,6 +69,26 @@ div#luiz{
     height: 125px;
     color: white;
     background-color: var(--color_luiz);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+div#edu{
+    display: block;
+    max-width: 85vw;
+    margin: auto;
+    height: 125px;
+    color: white;
+    background-color: var(--color_eduardo);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+div#rodri{
+    display: block;
+    max-width: 85vw;
+    margin: auto;
+    height: 125px;
+    color: white;
+    background-color: var(--color_rodrigo);
     border-radius: 20px;
 }
 #foto{
@@ -105,4 +130,54 @@ div#inform a{
     text-decoration: none;
     color: var(--color_eduardo);
     font-weight: bold;
+}
+
+div#inform2 h1{
+    padding-top: 10px;
+    display: block;
+    font-size: 1em;
+    font-family: var(--font_especial);
+}
+
+div#inform2 p{
+    text-align: left;
+    font-family: var(--font_padrao);
+    font-size: 0.7em;
+    margin-bottom: 30px;
+}
+div#inform2 a{
+    text-decoration: none;
+    color: var(--color_rodrigo);
+    font-weight: bold;
+}
+div#inform #link_insta2{
+    text-align: left;
+    font-family: var(--font_padrao);
+    font-size: 0.7em;
+    display: block;
+}
+
+div#inform3 h1{
+    padding-top: 10px;
+    display: block;
+    font-size: 1em;
+    font-family: var(--font_especial);
+}
+
+div#inform3 p{
+    text-align: left;
+    font-family: var(--font_padrao);
+    font-size: 0.7em;
+    margin-bottom: 30px;
+}
+div#inform3 a{
+    text-decoration: none;
+    color: var(--color_luiz);
+    font-weight: bold;
+}
+div#inform3 #link_insta3{
+    text-align: left;
+    font-family: var(--font_padrao);
+    font-size: 0.7em;
+    display: block;
 }

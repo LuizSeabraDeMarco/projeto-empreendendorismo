@@ -27,6 +27,8 @@ html, body {
 header > ul{
     display: flex;
     text-decoration: none;
+    padding-right: 0px;
+    margin-right: 10px;
 }
 
 header > ul > li > a{
@@ -42,7 +44,6 @@ li {
 }
 
 li#loja{
-    float: right;
     padding-left: 50vw;
     padding-right: 5vw;
 }

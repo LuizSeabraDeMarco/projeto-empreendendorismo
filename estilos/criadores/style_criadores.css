@@ -29,7 +29,6 @@ header > ul{
     width: 90vw;
     text-decoration: none;
     padding-right: 0px;
-    margin-right: 10px;
 }
 
 header > ul > li > a{
@@ -50,6 +49,7 @@ li#loja{
 }
 li#home{
     padding-right: 0px;
+    margin-right: 0px;
 }
 
 span.material-symbols-outlined {

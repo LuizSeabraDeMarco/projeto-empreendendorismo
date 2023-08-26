@@ -96,7 +96,7 @@ div#inform p{
 div#inform #link_insta{
     text-align: left;
     font-family: var(--font_padrao);
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding: 30px;
     display: block;
 }

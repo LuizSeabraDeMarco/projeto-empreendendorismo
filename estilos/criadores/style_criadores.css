@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+:root {
+    --color1: #BFB936;
+    --color2: #C9B438;
+    --color3: #B3963B;
+    --color4: #C99738;
+    --color5: #BF7F36;
+    --color_luiz: #32B0EA;
+    --color_eduardo: #EB495E;
+    --color_rodrigo: #EBE21A;
+    --font_especial: 'Lora', serif;
+    --font_padrao: 'Open Sans', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: white;
+}
+
+header > ul{
+    display: flex;
+    text-decoration: none;
+}
+
+header > ul > li > a{
+    text-decoration: none;
+    font-family: var(--font_especial);
+    color: black;
+    font-size: 2.0em;
+}
+
+li {
+    list-style-type: none;
+}
+
+li#esquerda{
+    float: left;
+    padding-right: 200px;
+}
+li#home{
+    float: right;
+    margin: auto;
+}
+li#loja{
+    float: right;
+    margin: auto;
+}
+
+span.material-symbols-outlined {
+    font-size: 30px;
+    color: black;
+}

@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 :root {
-    --color1: #32B397;
-    --color2: #F77AFF;
-    --color3: #60FFDC;
-    --color4: #FFD347;
-    --color5: #B3963B;
+    --color1: #BFB936;
+    --color2: #C9B438;
+    --color3: #B3963B;
+    --color4: #C99738;
+    --color5: #BF7F36;
     --font_especial: 'Lora', serif;
     --font_padrao: 'Open Sans', sans-serif;
 }
@@ -22,7 +22,7 @@ body, html{
 }
 
 header{
-    background-image: url("../img/globo.jpg");
+    background-image: url("../../img/globo.jpg");
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -37,7 +37,7 @@ header h1{
 
 header > p {
     font-family: var(--font_padrao);
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.499);
     color: white;
 }
@@ -72,6 +72,10 @@ li a:hover::after{
     transition: 0.5s;
 }
 
+menu{
+    margin-bottom: 40px;
+}
+
 menu li{
     display: inline;
     margin: auto;
@@ -82,17 +86,60 @@ menu a{
     margin: 10px;
 }
 
+div#busca_barraca > a{
+    text-decoration: none;
+    border: 1px solid var(--color5);
+    color: var(--color2);
+    padding: 15px 90px;
+}
+
 .itens {
-    background-color: lightcoral;
     width: 90vw;
     margin: auto;
     border-radius: 10px;
     height: 200px;
+    box-shadow: 5px 5px 10px #b3973b46;
+    margin-bottom: 25px;
 }
 
 .itens h2 {
     text-align: center;
     padding-top: 90px;
     margin-top: 30px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
 }
 
+div#brownie{
+    margin-top: 40px;
+    background-image: url("../../img/Brownie.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+div#mousse{
+    background-image: url("../../img/mousse.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+div#bolo{
+    background-image: url("../../img/bolo.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+div#cookie{
+    background-image: url("../../img/cookie.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+footer{
+    background-color: rgb(12, 12, 12);
+    height: 40px;
+}
+footer > a{
+    color: var(--color5);
+    text-shadow: 0px 0px 2px var(--color5);
+    text-decoration: none;
+    margin: auto;
+}

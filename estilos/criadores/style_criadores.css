@@ -56,3 +56,32 @@ span.material-symbols-outlined {
     font-size: 30px;
     color: black;
 }
+
+hr{
+    margin-bottom: 30px;
+}
+div#luiz{
+    background-color: var(--color_luiz);
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--font_especial);
+}
+#foto1{
+    width: 75vw;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+div#luiz h1{
+    padding: 10px;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+div#luiz p{
+    padding: 10px;
+    text-align: left;
+    font-size: 1.8em;
+}

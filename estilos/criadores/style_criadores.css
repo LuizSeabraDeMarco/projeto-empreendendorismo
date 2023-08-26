@@ -21,6 +21,7 @@
 
 html, body {
     background-color: white;
+    width: 100%;
 }
 
 header > ul{
@@ -39,17 +40,13 @@ li {
     list-style-type: none;
 }
 
-li#esquerda{
-    float: left;
-    padding-right: 200px;
-}
-li#home{
-    float: right;
-    margin: auto;
-}
 li#loja{
     float: right;
-    margin: auto;
+    padding-left: 50vw;
+    padding-right: 5vw;
+}
+li#home{
+    padding-right: 0px;
 }
 
 span.material-symbols-outlined {
@@ -61,27 +58,51 @@ hr{
     margin-bottom: 30px;
 }
 div#luiz{
-    background-color: var(--color_luiz);
-    width: 90vw;
+    display: block;
+    max-width: 85vw;
     margin: auto;
-    border-radius: 10px;
+    height: 125px;
     color: white;
-    font-family: var(--font_especial);
+    background-color: var(--color_luiz);
+    border-radius: 20px;
+}
+#foto{
+    display: flex;
+    float: left;
 }
 #foto1{
-    width: 75vw;
     display: block;
-    margin: auto;
+    width: 125px;
+    height: 125px;
     padding: 10px;
+    border-radius: 1000px;
 }
-div#luiz h1{
-    padding: 10px;
-    text-align: left;
-    font-size: 1.8em;
+#inform{
+    display: inline;
+}
+div#inform h1{
+    padding-top: 10px;
+    display: block;
+    font-size: 1em;
+    font-family: var(--font_especial);
 }
 
-div#luiz p{
-    padding: 10px;
+div#inform p{
     text-align: left;
-    font-size: 1.8em;
+    font-family: var(--font_padrao);
+    font-size: 0.7em;
+}
+
+div#inform #link_insta{
+    text-align: left;
+    font-family: var(--font_padrao);
+    font-size: 0.8em;
+    padding: 30px;
+    display: block;
+}
+
+div#inform a{
+    text-decoration: none;
+    color: var(--color_eduardo);
+    font-weight: bold;
 }

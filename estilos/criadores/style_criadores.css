@@ -20,8 +20,14 @@
 }
 
 html, body {
-    background-color: white;
     width: 100%;
+    background-image: linear-gradient( to right,var(--color_luiz),var(--color_eduardo), var(--color_rodrigo) );
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
+
 }
 
 header > ul{
@@ -44,12 +50,10 @@ li {
 }
 
 li#loja{
-    padding-left: 50vw;
-    padding-right: 5vw;
+    margin: auto;
 }
 li#home{
-    padding-right: 0px;
-    margin-right: 0px;
+    margin: auto;
 }
 
 span.material-symbols-outlined {
@@ -57,13 +61,13 @@ span.material-symbols-outlined {
     color: black;
 }
 
+
 #titulo_criadores{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     font-family: var(--font_especial);
     font-size: 35px;
-    border-top: 1px solid black;
 }
 div#luiz{
     display: block;

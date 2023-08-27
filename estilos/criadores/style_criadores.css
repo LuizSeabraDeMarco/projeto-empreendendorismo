@@ -8,7 +8,7 @@
     --color5: #BF7F36;
     --color_luiz: #32B0EA;
     --color_eduardo: #EB495E;
-    --color_rodrigo: #EBE21A;
+    --color_rodrigo: #ccc316;
     --font_especial: 'Lora', serif;
     --font_padrao: 'Open Sans', sans-serif;
 }
@@ -94,7 +94,7 @@ div#rodri{
     max-width: 85vw;
     margin: auto;
     height: 125px;
-    color: white;
+    color: black;
     background-color: var(--color_rodrigo);
     border-radius: 20px;
 }

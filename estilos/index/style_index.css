@@ -92,6 +92,17 @@ div#busca_barraca > a{
     color: var(--color2);
     padding: 15px 90px;
 }
+#filtros{
+    margin-top: 30px;
+    width: 60vw;
+    padding: 5px;
+}
+#centralizar_filtro{
+    align-items: center;
+    display: inline-block;
+    text-align: left;
+
+}
 
 .itens {
     width: 90vw;

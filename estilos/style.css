@@ -71,7 +71,10 @@ li a:hover::after{
     width: 100%;
     transition: 0.5s;
 }
-
+span.material-symbols-outlined{
+    background-color:white ;
+    padding: 20px;
+}
 menu li{
     display: inline;
     margin: auto;

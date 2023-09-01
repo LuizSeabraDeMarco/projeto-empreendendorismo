@@ -6,6 +6,8 @@
     --color3: #B3963B;
     --color4: #C99738;
     --color5: #BF7F36;
+    --color6: #2659A6;
+    --color7: #689FF2;
     --font_especial: 'Lora', serif;
     --font_padrao: 'Open Sans', sans-serif;
 }
@@ -90,18 +92,49 @@ div#busca_barraca > a{
     text-decoration: none;
     border: 1px solid var(--color5);
     color: var(--color2);
-    padding: 15px 90px;
+    padding: 15px 50px;
+    display: block;
+    width: 300px;
+    margin: auto;
 }
-#filtros{
-    margin-top: 30px;
+div#busca_barraca > div {
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
     width: 60vw;
-    padding: 5px;
+    height: 199px;
+    display: none;
+    border-radius: 15px;
+}
+form.form{
+    text-align:center;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+}
+button{
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--color4), var(--color5));
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: var(--font_especial);
+    color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+form > label{
+    padding:4px;
 }
 #centralizar_filtro{
     align-items: center;
     display: inline-block;
-    text-align: left;
-
 }
 
 .itens {
@@ -123,7 +156,7 @@ div#busca_barraca > a{
 }
 
 div#brownie{
-    margin-top: 40px;
+    margin-top: 70px;
     background-image: url("../../img/Brownie.jpg");
     background-size: cover;
     background-position: center center;
@@ -154,3 +187,101 @@ footer > a{
     text-decoration: none;
     margin: auto;
 }
+#buscar{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: white;
+  
+}
+form {
+    --text: #414856;
+    --radio: #7C96B2;
+    --radio-checked: #4F29F0;
+    --radio-size: 20px;
+    --width: 45vw;
+    --height: 110px;
+    --border-radius: 10px;
+    background: var(--background);
+    width: 140px;
+    height: var(--height);
+    border-radius: var(--border-radius);
+    color: var(--text);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: auto var(--radio-size);
+    align-items: center;
+    margin: auto;
+  }
+
+.form > label {
+    margin: 0px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+}
+.form form{
+    padding:4px;
+}
+  
+  .form input[type="radio"] {
+    --webkit-appearance: none;
+    --moz-appearance: none;
+    position: relative;
+    height: var(--radio-size);
+    width: var(--radio-size);
+    outline: none;
+    margin: 0;
+    cursor: pointer;
+    border: 2px solid var(--radio);
+    background: transparent;
+    border-radius: 50%;
+    display: grid;
+    justify-self: end;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border .5s ease;
+  }
+  
+  .form input[type="radio"]::before, .form input[type="radio"]::after {
+    content: "";
+    display: flex;
+    justify-self: center;
+    border-radius: 50%;
+  }
+  
+  .form input[type="radio"]::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    z-index: 1;
+    opacity: var(--opacity, 1);
+  }
+  
+  .form input[type="radio"]::after {
+    position: relative;
+    width: calc(100% /2);
+    height: calc(100% /2);
+    background: var(--radio-checked);
+    top: var(--y, 100%);
+    transition: top 0.5s cubic-bezier(0.48, 1.97, 0.5, 0.63);
+  }
+  
+  .form input[type="radio"]:checked {
+    --radio: var(--radio-checked);
+  }
+  
+  .form input[type="radio"]:checked::after {
+    --y: 0%;
+    animation: stretch-animate .3s ease-out .17s;
+  }
+  
+  .form input[type="radio"]:checked::before {
+    --opacity: 0;
+  }

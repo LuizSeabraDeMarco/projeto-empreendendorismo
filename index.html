@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilos/index/style_index.css">
     <link rel="stylesheet" href="estilos/index/media_query_index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -36,8 +37,24 @@
     </menu>
     <main>
         <div id="busca_barraca">
-            <a href="#">Filtrar Loja</a>
+            <a id="busca_barraca" onClick="clickFiltro()">Filtrar Lojas</a>
+                <div id="filtro" name="filtro">
+                    <form class="form">
+                        <label for="acucar">Sem Açucar</label>
+                        <input id="acucar" type="radio" name="r" value="1" checked="">
+                        <label for="lactose">Sem lactose</label>
+                        <input id="lactose" type="radio" name="r" value="2">
+                        <label for="gluten">Sem glutén</label>
+                        <input id="gluten" type="radio" name="r" value="3">
+                        <label for="outro">Outros</label>
+                        <input id="outro" type="radio" name="r" value="4">
+                    </form>
+                    <button type="submit"><span class="material-symbols-outlined" id="buscar">
+                        search
+                        </span></button>
+                </div>
         </div>
+        
         <div id="produto">
             <div id="brownie" class="itens">
                 <h2>Brownie</h2>
@@ -56,5 +73,15 @@
     <footer>
         <a href="criadores.html">Conheça os criadores</a>
     </footer>
+    <script>
+        function clickFiltro() {
+        var filtro = document.getElementById("filtro");
+        if (filtro.style.display == "grid"){
+            filtro.style.display = "none";
+        }else{
+            filtro.style.display = "grid"
+        }
+        }
+    </script>
 </body>
 </html>

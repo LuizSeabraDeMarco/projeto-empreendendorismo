@@ -20,24 +20,37 @@
 
 html, body {
     width: 100%;
-    background-color: #E09A1D;
+    background-image: ;
 }
-
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 span.material-symbols-outlined{
-    border-radius: 1000px;
     font-size: 50px;
     margin-bottom: 30px;
-    color: white;
-    border: 2px solid white;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 span#home_icon{
-    background-color: var(--color1);
-    margin-top: 20px;
+    color: var(--color1);
 }
 span#map_icon{
-    background-color: var(--color4);
+    color: var(--color4);
 }
 span#criadores_icon{
-    background-color: var(--color5)
+    color: var(--color5);
+}
+.criador{
+    background-color: lightgray;
+    height: 50px;
+    width: 70vw;
+    margin: auto;
+}
+.criador > h1{
+    text-align: center;
+    font-family: var(--font_especial);
+    font-size: 1.3em;
+    color: var(--color3);
+
 }

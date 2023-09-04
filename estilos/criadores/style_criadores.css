@@ -1,16 +1,15 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;900&family=Ruwudu:wght@400;700&display=swap');
+
 
 :root {
-    --color1: #BFB936;
-    --color2: #C9B438;
-    --color3: #B3963B;
-    --color4: #C99738;
-    --color5: #BF7F36;
-    --color_luiz: #32B0EA;
-    --color_eduardo: #EB495E;
-    --color_rodrigo: #ccc316;
-    --font_especial: 'Lora', serif;
-    --font_padrao: 'Open Sans', sans-serif;
+    --color1: #3528E0;
+    --color2: #f52e1c;
+    --color3: #1E11E0;
+    --color4: #f1d221;
+    --color5 : #07E068;
+    --font_especial:  'Cinzel', serif;
+    --font_padrao: 'Ruwudu', serif;
 }
 
 * {
@@ -21,179 +20,24 @@
 
 html, body {
     width: 100%;
-    background-color: white;
-}
-header{
-    background-size: cover;
-    background-position: center center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.418);
-    background-image: url(../../img/mapa.jpg)
-
+    background-color: #E09A1D;
 }
 
-header > ul{
-    display: flex;
-    width: 100vw;
-    text-decoration: none;
-    padding-right: 0px;
-    background-color: rgba(128, 128, 128, 0.521);
-}
-
-header > ul > li > a{
-    text-decoration: none;
-    font-family: var(--font_padrao);
-    color: white;
-    font-size: 2.0em;
-}
-
-li {
-    list-style-type: none;
-    font-family: var(--font_especial);
-}
-
-li#loja{
-    margin: auto;
-}
-li#home{
-    margin: auto;
-}
-
-span.material-symbols-outlined {
-    font-size: 30px;
-    color: white;
-}
-
-#titulo_criadores{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: var(--font_especial);
-    font-size: 35px;
-}
-div#luiz{
-    display: block;
-    max-width: 85vw;
-    margin: auto;
-    height: 125px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 10px #B3963B;
-    background-image: linear-gradient(45deg, #bf7f3600, #b3973b88);
-}
-div#edu{
-    display: block;
-    max-width: 85vw;
-    margin: auto;
-    height: 125px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 10px #B3963B;
-    background-image: linear-gradient(45deg, #bf7f3600, #b3973b88);
-}
-div#rodri{
-    display: block;
-    max-width: 85vw;
-    margin: auto;
-    height: 125px;
-    color: black;
-    border: 2px solid black;
-    box-shadow: 2px 2px 10px #B3963B;
-    border-radius: 20px;
-    background-image: linear-gradient(45deg, #bf7f3600, #b3973b88);
-    font-family: var(--font_especial);
-}
-#foto{
-    display: flex;
-    float: left;
-}
-#foto1{
-    display: block;
-    width: 125px;
-    height: 125px;
-    padding: 10px;
+span.material-symbols-outlined{
     border-radius: 1000px;
-}
-#inform{
-    display: inline;
-}
-div#inform h1{
-    padding-top: 10px;
-    display: block;
-    font-size: 1em;
-    font-family: var(--font_especial);
-}
-
-div#inform p{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
-}
-
-div#inform #link_insta{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
-    padding: 30px;
-    display: block;
-}
-
-div#inform a{
-    text-decoration: none;
-    color: var(--color_eduardo);
-    font-weight: bold;
-}
-
-div#inform2 h1{
-    padding-top: 10px;
-    display: block;
-    font-size: 1em;
-    font-family: var(--font_especial);
-}
-
-div#inform2 p{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
+    font-size: 50px;
     margin-bottom: 30px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 5px;
 }
-div#inform2 a{
-    text-decoration: none;
-    color: var(--color_rodrigo);
-    font-weight: bold;
+span#home_icon{
+    background-color: var(--color1);
+    margin-top: 20px;
 }
-div#inform #link_insta2{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
-    display: block;
+span#map_icon{
+    background-color: var(--color4);
 }
-
-div#inform3 h1{
-    padding-top: 10px;
-    display: block;
-    font-size: 1em;
-    font-family: var(--font_especial);
-}
-
-div#inform3 p{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
-    margin-bottom: 30px;
-}
-div#inform3 a{
-    text-decoration: none;
-    color: var(--color_luiz);
-    font-weight: bold;
-}
-div#inform3 #link_insta3{
-    text-align: left;
-    font-family: var(--font_padrao);
-    font-size: 0.7em;
-    display: block;
+span#criadores_icon{
+    background-color: var(--color5)
 }

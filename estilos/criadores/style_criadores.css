@@ -1,17 +1,71 @@
 @charset "utf-8";
 
+
 :root {
-    --color1: #312bd9;
-    --color2: #201c8c;
-    --color3: #312f59;
-    --color4: #5b7ad9;
-    --color5: #d96666;
-    --font_especial: 'Lora', serif;
-    --font_padrao: 'Open Sans', sans-serif;
+    --color1: #BFB936;
+    --color2: #C9B438;
+    --color3: #B3963B;
+    --color4: #C99738;
+    --color5: #BF7F36;
+    --color6: #2659A6;
+    --color7: #689FF2;
+    --font_especial:  'Cinzel', serif;
+    --font_padrao: 'Ruwudu', serif;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span.material-symbols-outlined{
+    font-size: 50px;
+    margin-left: 20px;
+}
+span#home_icon{
+    color: var(--color1);
+}
+span#map_icon{
+    color: var(--color2);
+}
+span#criadores_icon{
+    color: var(--color3);
+}
+h1{
+    text-align: center;
+    font-size: 2.3em;
+    font-family: var(--font_padrao);
+    color: rgb(179, 179, 179);
+    margin-bottom: 20px;
+}
+.criador{
+    background-color: rgb(219, 219, 219);
+    height: 150px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+}
+.criador > img{
+    width: 35vw;
+    height: 120px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.criador > h2{
+    text-align: left;
+    font-family: var(--font_especial);
+    font-size: 1.0em;
+    color: gray;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
 }

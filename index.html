@@ -48,17 +48,38 @@
                         <input id="gluten" type="radio" name="r" value="3">
                         <label for="outro">Outros</label>
                         <input id="outro" type="radio" name="r" value="4">
+                        <button type="submit" onClick="click_Filtro_Barracas()">
+                            <span class="material-symbols-outlined" id="buscar">
+                            search
+                            </span>
+                        </button>
                     </form>
-                    <button type="submit"><span class="material-symbols-outlined" id="buscar">
-                        search
-                        </span></button>
+                    
                 </div>
         </div>
-        <div id="barracas">
+        <div id="busca_barraca_filtro">
             <div id="bar_acucar">
-                <div id="bar_acucar_1" class="bar_acucar_class">
-                    <img src="img/exemplo_logo.jpg" alt="" id="exemplo_logo">
+                <div class="bar_acucar_1">
+                    <div id="img_bar_acucar" class="bar_acucar_class">
+                        <img src="img/exemplo_logo.jpg" alt="" id="exemplo_logo">
+                    </div>
+                    <div id="info_bar_acucar" class="bar_acucar_class">
+                        <h2>LactoFree</h2>
+                        <p>Brownie / Sorvete</p>
+                        <a href="#">Sua localização</a>
+                    </div>
                 </div>
+                <br>
+                    <div class="bar_acucar_1">
+                        <div id="img_bar_acucar" class="bar_acucar_class">
+                            <img src="img/exemplo_logo.jpg" alt="" id="exemplo_logo">
+                        </div>
+                        <div id="info_bar_acucar" class="bar_acucar_class">
+                            <h2>LactoFree</h2>
+                            <p>Brownie / Sorvete</p>
+                            <a href="#">Sua localização</a>
+                        </div>
+                    </div>
             </div>
         </div>
         
@@ -80,15 +101,6 @@
     <footer>
         <a href="criadores.html">Conheça os criadores</a>
     </footer>
-    <script>
-        function clickFiltro() {
-        var filtro = document.getElementById("filtro");
-        if (filtro.style.display == "grid"){
-            filtro.style.display = "none";
-        }else{
-            filtro.style.display = "grid"
-        }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

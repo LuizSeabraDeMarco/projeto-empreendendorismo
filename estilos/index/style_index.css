@@ -92,7 +92,7 @@ form.form{
     text-align:center;
     align-items: center;
     margin: auto;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 button{
     margin: auto;
@@ -137,21 +137,68 @@ form > label{
 }
 #barracas{
     margin: 10px;
+    margin-top: 30px;
+    display: inline-block;
 }
-.bar_acucar_class{
-    background-color: gray;
+#barracas_sem_acucar1 > #titulo_acucar{
+    color: rgb(48, 48, 48);
+    font-size: 2.0em;
+    font-family: var(--font_especial);
+    text-align: left;
+    padding: 10px;
+}
+#busca_barraca_filtro{
+    display: none;
+}
+#barracas_sem_acucar1{
+    display: none;
+}
+.bar_acucar_1{
+    background-image: linear-gradient(45deg, rgba(201, 201, 201, 0.329), rgba(126, 126, 126, 0.329));
     width: 80vw;
-    display: block;
-    height: 90px;
+    display: flex;
     height: 100px;
+    border-radius: 10px;
     margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+    margin-top: 30px;
+
+
 }
-img#exemplo_logo{
-    width: 176px;
+#info_bar_acucar{
+    font-size: 0.9em;
+    padding: 6px;
+    color: white;
+    font-family: var(--font_especial);
+    font-weight: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.685);
+}
+#info_bar_acucar h2{
+    margin-left: -80px;
+}
+#info_bar_acucar p{
+    margin-left: -55px;
+    font-family: var(--font_padrao);
+}
+#info_bar_acucar a{
+    text-decoration: none;
+    margin-top: 30px;
     display: block;
+    color: var(--color3);
+    font-weight: bold;
+    margin-left: 100px;
+}
+.bar_acucar_class > img{
+    width: 176px;
+    display: flex;
     text-align: left;
     padding: -10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
+
 
 div#brownie{
     margin-top: 70px;

@@ -141,7 +141,7 @@ form > label{
     display: inline-block;
 }
 #exemplo_logo{
-    width: 40vw;
+    width: 35vw;
 }
 #barracas_sem_acucar1 > #titulo_acucar{
     color: rgb(48, 48, 48);
@@ -168,6 +168,7 @@ form > label{
 
 
 }
+
 #info_bar_acucar{
     font-size: 0.9em;
     padding: 6px;
@@ -180,29 +181,26 @@ form > label{
 }
 .esquerda{
     display: block;
-    margin-left: -140px;
-}
-.direita{
-    margin-top: 20px;
-    margin-left: -20px;
+    margin-left: -90px;
 }
 #info_bar_acucar > .esquerda p{
     font-family: var(--font_padrao);
+    margin-right: -25px;
 }
-#info_bar_acucar  > .direita a{
+#info_bar_acucar  > .esquerda a{
     text-decoration: none;
-    display: inline;
     color: var(--color3);
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: lighter;
+    font-size: 14px;
     white-space: nowrap;
+    display: block;
+    margin-top: 20px;
 }
 .bar_acucar_class > img{
     display: flex;
     text-align: left;
     padding: -10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
 }
 
 

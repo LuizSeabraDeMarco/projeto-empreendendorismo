@@ -35,7 +35,7 @@ header > h1{
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: -19px;
 }
 
@@ -56,6 +56,7 @@ header > h1{
 div#acao{
     background-image: url('../../img/poluicao1.jpg');
     background-position: bottom center;
+    margin-bottom: 100px;
 }
 div#dados{
     background-image: url('../../img/poluicao2.jpg');
@@ -65,24 +66,34 @@ div#acao > h1{
     display: block;
     border-radius: 10px;
 }
+#dados_brasil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso fará com que a div ocupe toda a altura da tela. */
+  }
+#dados_brasil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 .box{
-    margin-top: 40px;
-    position: absolute;
     border-radius: 5px;
     padding: 15px;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: var(--cor5);
     width: 95vw;
     color: white;
+    display: block;
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    margin: 0 auto; /* Centralizar horizontalmente */
 }
 .box > h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 27px;
 }
 div#reciclados{
-    background-color: gray;
+    background-color: rgba(104, 104, 104, 0.486);
     width: 75vw;
     margin: auto;
     margin-top: 25px;
@@ -116,5 +127,14 @@ circle:nth-child(1){
 }
 circle:nth-child(2){
     stroke-dashoffset: calc(440 - 17.69);
-    stroke: cornflowerblue;
+    stroke: var(--cor4);
+}
+#temperatura {
+    text-align: center; /* Centraliza todo o conteúdo horizontalmente */
+}
+#piorar {
+    max-width: 85vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

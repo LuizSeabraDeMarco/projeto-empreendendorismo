@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo de Progresso</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: cornflowerblue;
+        }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(128, 128, 128, 0.597);
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .box-circle > svg{
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        circle{
+            width: 150px;
+            height: 150px;
+            fill: none;
+            stroke: black;
+            stroke-width: 5;
+            transform: translate(5px, 5px);
+            stroke-dasharray: 440;
+            stroke-dashoffset: 440;
+        }
+        circle:nth-child(1){
+            stroke-dashoffset: 0;
+            stroke: rgb(104, 104, 104);
+        }
+        circle:nth-child(2){
+            stroke-dashoffset: calc(440 - 308);
+            stroke: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Luiz Seabra</h1>
+    <input type="number" placeholder="Digite um numero">
+    <button>Enviar</button>
+    <div class="box">
+        <div class="box-circle">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+        </div>
+        <div class="number">
+            <h2>70%</h2>
+        </div>
+    </div>
+</body>
+</html>

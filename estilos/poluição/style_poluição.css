@@ -63,7 +63,7 @@ header > button{
 div#acao{
     background-image: url('../../img/poluicao1.jpg');
     background-position: bottom center;
-    margin-bottom: 550px;
+    margin-bottom: 720px;
 }
 div#dados{
     background-image: url('../../img/poluicao2.jpg');
@@ -172,10 +172,13 @@ circle#circulo4{
     display: block;
     margin: 0 auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
-    margin-bottom: -230px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: block;
 }
 #rank{
     width: 80vw;
+    display: block;
     margin: auto;
     background: none;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);

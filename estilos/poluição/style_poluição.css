@@ -39,6 +39,12 @@ header > h1{
     padding-top: -19px;
 }
 
+header > button{
+    color: white;
+    background: none;
+    border: none;
+}
+
 .opcao{
     background-size: cover;
     width: 100vw;
@@ -49,6 +55,7 @@ header > h1{
     font-family: serif;
     color: white;
     margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
 }
 .espaco{
     margin-top: 30px;
@@ -56,7 +63,7 @@ header > h1{
 div#acao{
     background-image: url('../../img/poluicao1.jpg');
     background-position: bottom center;
-    margin-bottom: -30px;
+    margin-bottom: 550px;
 }
 div#dados{
     background-image: url('../../img/poluicao2.jpg');
@@ -77,7 +84,7 @@ div#acao > h1{
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
 .box{
     border-radius: 5px;
     padding: 15px;
@@ -91,8 +98,11 @@ div#acao > h1{
 .box > h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 27px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
-div#reciclados{
+div.reciclados{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
     background-color: rgba(104, 104, 104, 0.486);
     width: 75vw;
     margin: auto;
@@ -100,11 +110,17 @@ div#reciclados{
     padding: 10px;
     border-radius: 5px;
 }
-div#reciclados > h2{
+div.reciclados > h2{
+    font-size: 20px;
+    text-align: center;
+}
+div#n_recicla > h2{
     font-size: 25px;
 }
 div.box-circle > p{
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 .box-circle > svg{
     width: 150px;
@@ -123,11 +139,29 @@ circle{
 }
 circle:nth-child(1){
     stroke-dashoffset: 0;
-    stroke: rgb(104, 104, 104);
+    stroke: rgb(147, 147, 147);
 }
 circle:nth-child(2){
     stroke-dashoffset: calc(440 - 17.69);
     stroke: var(--cor4);
+}
+circle#circulo4{
+    stroke-dashoffset: calc(440 - 101.2);
+    stroke: var(--cor4);
+}
+#ranking{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-color: rgba(104, 104, 104, 0.486);
+    width: 75vw;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#ranking > div> h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
 }
 #temperatura {
     text-align: center; /* Centraliza todo o conteúdo horizontalmente */
@@ -137,4 +171,20 @@ circle:nth-child(2){
     height: auto;
     display: block;
     margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    margin-bottom: -230px;
+}
+#rank{
+    width: 80vw;
+    margin: auto;
+    background: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+}
+
+#artico{
+    width: 85vw;
+    background: none;
+    margin: auto;
+    display: block;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
 }

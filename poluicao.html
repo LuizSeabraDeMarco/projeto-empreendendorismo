@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <span class="material-symbols-outlined">close</span>
+        <button><span class="material-symbols-outlined" onclick="voltarParaPaginaAnterior()">close</span></button>
         <h1>Abrimos os olhos</h1>
     </header>
     <main>
@@ -29,7 +29,7 @@
         <div id="dados_brasil">
             <div class="box">
                 <h1>Dados do Brasil</h2>
-                <div id="reciclados">
+                <div class="reciclados" id="n_recicla">
                     <h2>Resíduos sólidos reciclados</h2>
                     <div class="box-circle">
                         <svg>
@@ -38,11 +38,28 @@
                         </svg>
                         <p>4%</p>
                     </div>
-                </div> 
-                <h1>Dados do Mundo</h2>
+                </div>
+                <div class="reciclados" id="pov_expost">
+                    <h2>população exposta a ar poluente acima do permitido pela OMS e CONAMA</h2>
+                    <div class="box-circle">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="circulo4"></circle>
+                        </svg>
+                        <p>23%</p>
+                    </div>
+                </div>
+                <h1>Dados do Mundo</h1>
                 <div id="temperatura">
                     <img src="../../img/O_quanto_pode_piorar.jpg" alt="" id="piorar">
                 </div>
+                <div id="rank">
+                    <img src="../../img/ranking_poluicao.png" alt="" id="rank">
+                </div> 
+                <div class="espaco"></div>
+                <div>
+                    <img src="../../img/artico.png" alt="" id="artico">
+                </div> 
             </div>
         </div>
     </main>

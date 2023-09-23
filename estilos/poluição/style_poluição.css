@@ -172,15 +172,20 @@ circle#circulo4{
     margin-bottom: 40px;
     margin-top: 20px;
     display: block;
+    background-image: url('../../img/O_quanto_pode_piorar.jpg');
 }
 #rank{
     width: 80vw;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-image: url('../../img/ranking_poluicao.png');
+    display: block;
 }
 
 #artico{
     width: 85vw;
     margin-top: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-image: url('../../img/artico.png');
+    display: block;
 }

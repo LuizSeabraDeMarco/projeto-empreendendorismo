@@ -167,7 +167,6 @@ circle#circulo4{
 #piorar {
     max-width: 85vw;
     height: auto;
-    display: block;
     margin: 0 auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
     margin-bottom: 40px;
@@ -176,16 +175,12 @@ circle#circulo4{
 }
 #rank{
     width: 80vw;
-    display: block;
     margin: auto;
-    background: none;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
 }
 
 #artico{
     width: 85vw;
-    background: none;
-    margin: auto;
-    display: block;
+    margin-top: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualidade do Ar</title>
+    <!-- Inclua os estilos CSS -->
+    <link rel="stylesheet" href="estilos/poluição/style_poluição.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <button><span class="material-symbols-outlined" onclick="voltarParaPaginaAnterior()">close</span></button>
+        <h1>Vamos abrir os olhos</h1>
+    </header>
+    <main>
+        <div class="espaco">
+
+        </div>
+
+        </div>
+        <div id="acao" class="opcao">
+            <h1>Oque fazer</h1>
+        </div>
+        <div id="dados_brasil">
+            <div class="box">
+                <h1>Dados do Brasil</h2>
+                <div class="reciclados" id="n_recicla">
+                    <h2>Resíduos sólidos reciclados</h2>
+                    <div class="box-circle">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <p>4%</p>
+                    </div>
+                </div>
+                <div class="reciclados" id="pov_expost">
+                    <h2>população exposta a ar poluente acima do permitido pela OMS e CONAMA</h2>
+                    <div class="box-circle">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70" id="circulo4"></circle>
+                        </svg>
+                        <p>23%</p>
+                    </div>
+                </div>
+                <h1>Dados do Mundo</h1>
+                <div id="temperatura">
+                    <img src="img/O_quanto_pode_piorar.jpg" alt="" id="piorar">
+                </div>
+                <div id="rank">
+                    <img src="../../img/ranking_poluicao.png" alt="" id="rank">
+                </div> 
+                <div class="espaco"></div>
+                <div>
+                    <img src="../../img/artico.png" alt="" id="artico">
+                </div> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="wheather.js"></script>
+</body>
+</html>

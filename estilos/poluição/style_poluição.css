@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&family=Mooli&display=swap');
+:root {
+    --cor1: #339E4C;
+    --cor2: #85FFA1;
+    --cor3: #63EB82;
+    --cor4: #9E232E;
+    --cor5: #EB636E;
+    --font1: 'Life Savers', sans-serif;
+    --font2: 'Mooli', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: var(--font_especial);
+    text-align: center;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: lighter;
+}
+header{
+    display: flex;
+    padding: 5px;
+    color: var(--cor);
+    background-color: rgba(0, 0, 0, 0.858);
+    color: rgb(243, 243, 243);
+}
+header > h1{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: -19px;
+}
+
+header > button{
+    color: white;
+    background: none;
+    border: none;
+}
+
+.opcao{
+    background-size: cover;
+    width: 100vw;
+    width: 95vw;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: serif;
+    color: white;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+}
+div#acao{
+    background-image: url('../../img/poluicao1.jpg');
+    background-position: bottom center;
+    margin-bottom: 890px;
+    margin-top: 30px;
+}
+div#dados{
+    background-image: url('../../img/poluicao2.jpg');
+    background-position: center center;
+}
+div#acao > h1{
+    display: block;
+    border-radius: 10px;
+}
+#dados_brasil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso fará com que a div ocupe toda a altura da tela. */
+  }
+#dados_brasil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    border-radius: 5px;
+    padding: 15px;
+    background-color: var(--cor5);
+    width: 100vw;
+    color: white;
+    display: block;
+    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+.box > h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+div.reciclados{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-color: rgba(104, 104, 104, 0.486);
+    width: 75vw;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+div.reciclados > h2{
+    font-size: 20px;
+    text-align: center;
+}
+div#n_recicla > h2{
+    font-size: 25px;
+}
+div.box-circle > p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.box-circle > svg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke: black;
+    stroke-width: 5;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: rgb(147, 147, 147);
+}
+circle:nth-child(2){
+    stroke-dashoffset: calc(440 - 17.69);
+    stroke: var(--cor4);
+}
+circle#circulo4{
+    stroke-dashoffset: calc(440 - 101.2);
+    stroke: var(--cor4);
+}
+#ranking{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-color: rgba(104, 104, 104, 0.486);
+    width: 75vw;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#ranking > div> h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#temperatura {
+    text-align: center; /* Centraliza todo o conteúdo horizontalmente */
+}
+#piorar {
+    max-width: 85vw;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: block;
+    background-image: url('../../img/O_quanto_pode_piorar.jpg');
+}
+#rank{
+    width: 80vw;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-image: url('../../img/ranking_poluicao.png');
+    display: block;
+}
+
+#artico{
+    width: 85vw;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.216);
+    background-image: url('../../img/artico.png');
+    display: block;
+}

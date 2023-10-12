@@ -32,7 +32,6 @@ header{
     padding-top: 50px;
     color: white;
 }
-
 header h1{
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.485);
 }
@@ -77,6 +76,7 @@ div#busca_barraca > a{
     display: block;
     width: 300px;
     margin: auto;
+    margin-top: -30px;
 }
 div#busca_barraca > div {
     background-color: rgb(240, 240, 240);
@@ -208,6 +208,7 @@ div#brownie{
     background-image: url("../../img/Brownie.jpg");
     background-size: cover;
     background-position: center center;
+    text-decoration: none;
 }
 div#mousse{
     background-image: url("../../img/mousse.jpg");

@@ -20,7 +20,6 @@ body, html{
     font-family: var(--font_especial);
     text-align: center;
 }
-
 header{
     background-image: url("../img/globo.jpg");
     background-size: cover;

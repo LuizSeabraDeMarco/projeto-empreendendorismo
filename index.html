@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,8 +29,9 @@
     <menu>
         <nav>
             <ul>
-                <li><a href="#">Barracas</a></li>
-                <li><a href="poluicao.html">Poluição</a></li>
+                <li><a href="map.html"><span id="loja" class="material-symbols-outlined" style="font-size: 9vw;">
+                    storefront
+                    </span></a></li>
             </ul>
         </nav>
     </menu>
@@ -64,9 +65,9 @@
                     </div>
                     <div id="info_bar_acucar" class="bar_acucar_class">
                         <div class="esquerda">
-                            <h2>LactoFree</h2>
+                            <h2>LacZero ①</h2>
                             <p>Brownie / Sorvete</p>
-                            <a href="#" class="sua_local">Sua localização</a>
+                            <a href="map.html" class="sua_local" id="local_lac1">Sua localização</a>
                         </div>
                     </div>
                 </div>
@@ -77,9 +78,9 @@
                         </div>
                         <div id="info_bar_acucar" class="bar_acucar_class">
                             <div class="esquerda">
-                                <h2>LactoFree</h2>
-                                <p>Brownie / Sorvete</p>
-                                <a href="#" class="sua_local">Sua localização</a>
+                                <h2>LactoFree ②</h2>
+                                <p>Milk Shake</p>
+                                <a href="map.html" class="sua_local">Sua localização</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +88,7 @@
         </div>
         
         <div id="produto">
-            <div id="brownie" class="itens">
+            <div id="brownie" class="itens" onclick="window.location.href = 'principais_com/brownie.html'">
                 <h2>Brownie</h2>
             </div>
             <div id="mousse" class="itens">

@@ -67,7 +67,7 @@ span#star_icon, span#buscar_icon {
   cursor: pointer;
   border-radius: 30px;
   padding: 10px;
-  width: 130%;
+  width: 100%;
 }
 input {
   -webkit-user-select: none;

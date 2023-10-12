@@ -61,11 +61,12 @@ span#star_icon, span#buscar_icon {
 }
 
 #busca_div > input{
-  width: 55vw;
+  width: 45vw;
   outline: none;
   margin-top: 12px;
   border: 1px solid gray;
   height: 8vw;
+  cursor: pointer;
   border-radius: 30px;
   padding: 10px;
   display: none;

@@ -75,7 +75,7 @@ span#star_icon, span#buscar_icon {
   cursor: pointer;
   border-radius: 30px;
   padding: 10px;
-  width: 110%;
+  width: 120%;
 }
 input {
   -webkit-user-select: none;
@@ -118,6 +118,9 @@ input:active, input:focus {
 #busca_div > ul > li{
     margin-top: 10px;
 }
+#busca_div > ul{
+  width: 120%;
+}
 
 #esquerda{
   display: block;
@@ -130,7 +133,7 @@ input:active, input:focus {
     background-color: white;
     color: #B3963B;
     box-shadow: none;
-    font-size: 35px;
+    font-size: 5vw;
 }
 #savings_icon{
     color: #38C97D;

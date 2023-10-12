@@ -82,8 +82,7 @@ input {
   user-select: none;
 }
 
-input:active,
-input:focus {
+input:active, input:focus {
   -webkit-touch-callout: default;
   -webkit-user-select: text;
   -khtml-user-select: text;
@@ -97,6 +96,7 @@ input:focus {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    width: 90%;
 }
 #busca_div > ul > li > a{
     color: rgb(0, 0, 0);

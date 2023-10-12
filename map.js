@@ -28,13 +28,10 @@ input.addEventListener('keyup', function() {
 
 function clickBusca(){
   console.log('clickBusca() chamado!');
-  var filtro = document.getElementById("input_busca");
-  var filtro_ul = document.getElementById("sugestoes");
-  if (filtro.style.display == "none" & filtro_ul.style.display == "none"){
+  var filtro = document.getElementById("busca_div");
+  if (filtro.style.display == "none"){
       filtro.style.display = "grid";
-      filtro_ul.style.display = "grid";
   }else{
       filtro.style.display = "none"
-      filtro_ul.style.display = "none";
   }
   }

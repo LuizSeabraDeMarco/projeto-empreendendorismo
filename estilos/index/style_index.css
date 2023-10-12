@@ -42,7 +42,9 @@ header > p {
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.499);
     color: white;
 }
-
+#loja{
+    height: 12vw;
+}
 .material-symbols-outlined{
     color: var(--color4);
 }

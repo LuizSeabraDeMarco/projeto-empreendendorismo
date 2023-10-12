@@ -59,20 +59,17 @@ span#star_icon, span#buscar_icon {
   text-align: right;
   margin-left: auto;
 }
-
 #busca_div > input{
-  width: 45vw;
   outline: none;
   margin-top: 12px;
-  border: 1px solid gray;
+  border: 1.7px solid rgb(119, 119, 119);
   height: 8vw;
   cursor: pointer;
   border-radius: 30px;
   padding: 10px;
-  display: none;
+  width: 130%;
 }
 #busca_div > ul{
-    display: none;
     list-style: none;
     background-color: white;
     padding: 10px;

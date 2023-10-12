@@ -30,7 +30,7 @@ function clickBusca(){
   console.log('clickBusca() chamado!');
   var filtro = document.getElementById("input_busca");
   var filtro_ul = document.getElementById("sugestoes");
-  if (filtro.style.display == "none" || filtro_ul.style.display == "none"){
+  if (filtro.style.display == "none" & filtro_ul.style.display == "none"){
       filtro.style.display = "grid";
       filtro_ul.style.display = "grid";
   }else{

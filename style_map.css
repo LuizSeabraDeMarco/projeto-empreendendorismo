@@ -37,7 +37,7 @@ div#div_header {
 span.material-symbols-outlined {
   color: white;
   background-color: gray;
-  font-size: 8vw;
+  font-size: 10vw;
   border-radius: 50px;
   box-shadow: 3px 3px 5px rgba(45, 45, 45, 0.324);
 }
@@ -62,9 +62,10 @@ span#star_icon, span#buscar_icon {
 
 #busca_div > input{
   width: 55vw;
+  outline: none;
   margin-top: 12px;
   border: 1px solid gray;
-  height: 7vw;
+  height: 8vw;
   border-radius: 30px;
   padding: 10px;
   display: none;
@@ -96,10 +97,9 @@ span#star_icon, span#buscar_icon {
     background-color: white;
     color: #B3963B;
     box-shadow: none;
+    font-size: 35px;
 }
 #savings_icon{
     color: #38C97D;
     background-color: white;
-    font-size: 8vw;
-
 }

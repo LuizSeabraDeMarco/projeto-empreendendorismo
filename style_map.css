@@ -22,6 +22,13 @@ body, html {
   font-family: var(--font_especial);
 }
 
+html {
+  -webkit-user-scalable: none;
+  -moz-user-scalable: none;
+  -ms-user-scalable: none;
+  user-scalable: none;
+}
+
 header {
   background-image: url(img/exem-map.jpeg);
   height: 75vw;
@@ -80,6 +87,10 @@ input {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-user-scalable: none;
+  -moz-user-scalable: none;
+  -ms-user-scalable: none;
+  user-scalable: none;
 }
 
 input:active, input:focus {

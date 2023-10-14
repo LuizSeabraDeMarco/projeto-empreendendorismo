@@ -67,6 +67,9 @@ span#star_icon, span#buscar_icon {
   text-align: right;
   margin-left: auto;
 }
+#busca_div{
+  display: none;
+}
 #busca_div > input{
   outline: none;
   margin-top: 12px;

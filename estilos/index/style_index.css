@@ -44,7 +44,10 @@ header > p {
     color: white;
 }
 #loja{
-    height: 12vw;
+    font-size: 22vw;
+    display: block;
+    margin-top: -10vw;
+    margin-bottom: -4vw;
 }
 .material-symbols-outlined{
     color: var(--color4);
@@ -70,7 +73,9 @@ menu a{
     color: black;
     margin: 10px;
 }
-
+#busca_barraca{
+    margin: auto;
+}
 div#busca_barraca > a{
     text-decoration: none;
     border: 1px solid var(--color5);

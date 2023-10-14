@@ -11,7 +11,7 @@ input.addEventListener('keyup', function() {
   const value = input.value.toLowerCase();
 
   const sugestoesBusca = [
-    "BrownieMaria",
+    "Brownie Maria",
     "LactoFree"
   ];
 
@@ -19,7 +19,7 @@ input.addEventListener('keyup', function() {
   sugestoes.innerHTML = '';
   for (const sugestao of sugestoesBusca) {
     if (sugestao.toLowerCase().includes(value)) {
-      sugestoes.innerHTML += `<li><a href="${sugestao}.html"><span id="icon_sugestao"class="material-symbols-outlined">
+      sugestoes.innerHTML += `<li><a href="${sugestao.replace(' ', '')}.html"><span id="icon_sugestao"class="material-symbols-outlined">
       storefront
       </span>  ${sugestao}</a></li>`;
     }
@@ -29,7 +29,7 @@ input.addEventListener('keyup', function() {
 function clickBusca(){
   console.log('clickBusca() chamado!');
   var filtro = document.getElementById("busca_div");
-  if (filtro.style.display == "none"){
+  if (filtro.style.display = "none"){
       filtro.style.display = "grid";
   }else{
       filtro.style.display = "none"

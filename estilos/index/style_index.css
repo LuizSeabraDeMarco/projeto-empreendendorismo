@@ -185,6 +185,12 @@ form > label{
     color: rgba(0, 0, 0, 0.685);
     display: block;
     padding-left: 100px;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+
 }
 .esquerda{
     display: block;
@@ -193,6 +199,10 @@ form > label{
 #info_bar_acucar > .esquerda p{
     font-family: var(--font_padrao);
     margin-right: -25px;
+    text-decoration: none;
+}
+#info_bar_acucar > .esquerda h2{
+    color: var(--color4);
 }
 #info_bar_acucar  > .esquerda a{
     text-decoration: none;
@@ -202,6 +212,8 @@ form > label{
     white-space: nowrap;
     display: block;
     margin-top: 20px;
+    text-decoration: none;
+
 }
 .bar_acucar_class > img{
     display: flex;

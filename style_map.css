@@ -33,7 +33,7 @@ html {
 
 header {
   background-image: url(img/exem-map.jpeg);
-  height: 75vw;
+  height: 40vh;
   background-size: cover;
   background-position: center center;
 }
@@ -67,10 +67,9 @@ span#star_icon, span#buscar_icon {
   text-align: right;
   margin-left: auto;
 }
-#busca_div{
-  display: none;
-}
+
 #busca_div > input{
+  display: none;
   outline: none;
   margin-top: 12px;
   border: 1.7px solid rgb(119, 119, 119);
@@ -96,6 +95,12 @@ input {
   -ms-user-scalable: none;
   user-scalable: none;
 }
+span#fullscreen {
+  position: absolute;
+  bottom: calc(61vh);
+  right: 0;
+  margin-right: 8px;
+}
 
 input:active, input:focus {
   -webkit-touch-callout: default;
@@ -107,6 +112,7 @@ input:active, input:focus {
 }
 
 #busca_div > ul{
+    display: none;
     list-style: none;
     background-color: white;
     padding: 10px;

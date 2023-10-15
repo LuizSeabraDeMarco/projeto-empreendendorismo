@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie</title>
+    <link rel="stylesheet" href="brownie.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <footer>
+        <div>
+            <span class="material-symbols-outlined" onClick="voltarPaginaAnterior()" style="font-size: 6vw;">
+                close
+            </span>
+            <h1>Cookie</h1>
+        </div>
+    </footer>
+    <main>
+        <h2>Principais Barracas</h2>
+        <div>
+            <div id="div_barraca">
+                <hr>
+                <div class="barraca" id="barraca1">
+                    <img src="../img/exemplo_logo.jpg" alt="">
+                    <h3>Brownie Mania</h3>
+                    <p>①</p>
+                </div>
+                <div class="barraca">
+                    <img src="../img/exemplo_logo.jpg" alt="">
+                    <h3>Best Brownie</h3>
+                    <p>②</p>
+                </div>
+                <div class="barraca">
+                    <img src="../img/exemplo_logo.jpg" alt="">
+                    <h3>Brownielicious</h3>
+                    <p>➂</p>
+                </div>
+                <hr>
+                <a href="../map.html"><span class="material-symbols-outlined" id="go">
+                    subdirectory_arrow_right
+                </span></a>
+            </div>
+        </div>
+    </main>
+<script>
+    function voltarPaginaAnterior() {
+        history.back();
+    }
+</script>
+</body>
+</html>

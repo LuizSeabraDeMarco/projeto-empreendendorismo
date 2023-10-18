@@ -95,12 +95,6 @@ input {
   -ms-user-scalable: none;
   user-scalable: none;
 }
-span#fullscreen {
-  position: absolute;
-  bottom: calc(61vh);
-  right: 0;
-  margin-right: 8px;
-}
 
 input:active, input:focus {
   -webkit-touch-callout: default;

@@ -45,26 +45,22 @@ function FullScreen(){
   console.log('Chamada Executada');
   var EstadoTela = true;
   var fecha = document.getElementById("fecha");
-  var desconto = document.getElementById("savings_icon");
+  var sugestoes = document.getElementById("sugestoes");
+  var buscar = document.getElementById("input_busca");
   var tela =  document.getElementById("header");
   var busca = document.getElementById("buscar_icon");
   var voltar = document.getElementById("voltar");
-  var telaFull = document.getElementById("fullscreen")
+  var telaFull = document.getElementById("fullscreen");
   tela.style.height = "100vh";
   fecha.style.display = "none";
+  buscar.style.display = "none";
+  sugestoes.style.display = "none";
   busca.style.display = "none";
-  desconto.style.display = "none";
   voltar.style.display = "none";
-  telaFull.style.position = "relative";
-  telaFull.style.top = "0";
-  telaFull.style.opacity = "50%";
-  telaFull.style.backgroundSize = "50%";
-  telaFull.style.backgroundPosition = "center center";
-  if (EstadoTela == true) {
+  if (EstadoTela === true) {
+    console.log('chamado!')
     telaFull.onclick = function NoFullScreen() {
       location.reload();
-      //background-size: cover;
-      //background-position: center center;
     }
   }
 

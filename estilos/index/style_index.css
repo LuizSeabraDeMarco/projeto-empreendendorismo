@@ -175,7 +175,9 @@ form > label{
     margin-top: 30px;
 }
 
-
+#busca_barraca_filtro_sugar{
+    display: none;
+}
 #info_bar_acucar{
     font-size: 0.9em;
     padding: 6px;
